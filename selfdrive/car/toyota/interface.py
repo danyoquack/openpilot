@@ -171,7 +171,7 @@ class CarInterface(CarInterfaceBase):
       ret.steerRatio = 14.3
       tire_stiffness_factor = 0.7933
       ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.15], [0.05]]
-      ret.mass = 3750. * CV.LB_TO_KG + STD_CARGO_KG 
+      ret.mass = 3610. * CV.LB_TO_KG + STD_CARGO_KG
       ret.lateralTuning.pid.kf = 0.00004
 
     elif candidate in [CAR.COROLLA_TSS2, CAR.COROLLAH_TSS2]:
